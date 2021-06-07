@@ -1,0 +1,28 @@
+﻿@model User
+
+<h2>Kullanıcı Oluştur</h2>
+
+<div class="container">
+    <form asp-action="AddUser" method="post">
+
+        <label asp-for="UserName" class="control-label">Kullanıcı Adı:</label><br />
+        <input asp-for="UserName" class="form-control" />
+        <br />
+        <input type="submit" class="btn btn-success" value="Kaydet" />
+    </form>
+</div>
+
+<h2>Kullanıcı Listesi</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Kullanıcı Id</th>
+        <th>Kullanıcı Adı</th>
+    </tr>
+    @foreach (var item in ViewBag.users)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.UserName</td>
+        </tr>
+    }
+</table>

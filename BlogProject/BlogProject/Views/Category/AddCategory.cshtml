@@ -1,0 +1,28 @@
+﻿@model Category
+
+<h2>Kategori Ekle</h2>
+
+@using (Html.BeginForm("AddCategory", "Category", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(x => x.CategoryName, "Kategori Adı", new { @class = "form-label" })
+        @Html.TextBoxFor(x => x.CategoryName, null, new { @class = "form-control" })
+    </div>
+    <input type="submit" class="btn btn-success" value="Kategori Ekle" />
+}
+
+<h2>Kategori Listesi</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Kategori Id</th>
+        <th>Kategori Adı</th>
+    </tr>
+    @foreach (var item in ViewBag.categories)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.CategoryName</td>
+        </tr>
+    }
+</table>
+

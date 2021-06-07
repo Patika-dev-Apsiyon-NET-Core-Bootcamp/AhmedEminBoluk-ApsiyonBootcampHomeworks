@@ -1,0 +1,22 @@
+﻿@model List<Book>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Kitap İsmi</th>
+        <th>Kitap Yazarı</th>
+        <th>Yayın Yılı</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.BookName</td>
+            <td>@item.Writer</td>
+            <td>@item.PublishedYear</td>
+        </tr>
+    }
+</table>
+@using (Html.BeginForm())
+{
+    @Html.TextBox("bookName");
+    <input type="submit" value="Favori Yap" />
+}

@@ -1,0 +1,51 @@
+﻿@model BlogViewModel
+
+<h2>Blog Yazısı Ekle</h2>
+
+<div class="container">
+    <form asp-action="AddBlog" method="post">
+        <label asp-for="SelectedCategories" class="control-label">Kategoriler:</label><br />
+        <select asp-for="SelectedCategories" asp-items="@(new SelectList(ViewBag.blogsCategory,"Id","CategoryName"))" multiple>
+            <option>Lütfen Kategori seçiniz...</option>
+        </select>
+        <br />
+
+        <label asp-for="BlogTitle" class="control-label">Blog Başlık:</label>
+        <input asp-for="BlogTitle" class="form-control" />
+
+        <label asp-for="BlogContent" class="control-label">Blog İçerik:</label>
+        <textarea asp-for="BlogContent" class="form-control" ></textarea>
+        <br />
+        <input type="submit" class="btn btn-success" value="Kaydet" />
+
+    </form>
+</div>
+
+<h2>Blog Yazı Listesi</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Blog Id</th>
+        <th>Blog Başlık</th>
+        <th>Blog İçerik</th>
+        <th>Blog Kategorileri</th>
+        <th>Aksiyonlar</th>
+    </tr>
+    @foreach (var item in ViewBag.blogs)
+    {
+<tr>
+    <td>@item.Id</td>
+    <td>@item.BlogTitle</td>
+    <td>@item.BlogContent</td>
+    <td>
+        @foreach (var itemCategory in item.Categories)
+        {
+            @itemCategory.CategoryName <span> , </span> 
+
+        }
+    </td>
+    <td>
+        <a href="/Comment/Index/@item.Id">Yorum Ekle</a>
+    </td>
+    </tr>
+    }
+</table>
