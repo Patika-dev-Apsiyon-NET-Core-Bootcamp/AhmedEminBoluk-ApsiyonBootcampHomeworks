@@ -9,3 +9,8 @@ Bootcamp süresince verilen ödevler.
 * Kategori ve kullanıcı ekleme yapabilirsiniz.
 * Seçtiğiniz kategoriler ve kullanıcı için bir blog yazısı oluşturabilirsiniz.
 * Seçtiğiniz bir blog yazısına belirlediğiniz kullanıcı ile yorum yapabilirsiniz.
+
+## Ödev-3 - RoleHomeWorkProject
+* Kayıt olup, giriş yapabilirsiniz.
+* Giriş yaptıktan sonra otomatik olarak Role'leriniz ekleniyor.
+* Sayfada yetkiniz varsa olumlu, yetkiniz yoksa olumsuz bir mesajla karşılaşıyorsunuz.
