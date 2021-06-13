@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmed\\source\\repos\\RoleHomeWorkProject\\RoleHomeWorkProject\\RoleHomeWorkProject.csproj": {}
+    "C:\\Users\\ahmed\\Desktop\\AhmedEminBoluk-ApsiyonBootcampHomeworks\\RoleHomeWorkProject\\RoleHomeWorkProject\\RoleHomeWorkProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmed\\source\\repos\\RoleHomeWorkProject\\RoleHomeWorkProject\\RoleHomeWorkProject.csproj": {
+    "C:\\Users\\ahmed\\Desktop\\AhmedEminBoluk-ApsiyonBootcampHomeworks\\RoleHomeWorkProject\\RoleHomeWorkProject\\RoleHomeWorkProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmed\\source\\repos\\RoleHomeWorkProject\\RoleHomeWorkProject\\RoleHomeWorkProject.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed\\Desktop\\AhmedEminBoluk-ApsiyonBootcampHomeworks\\RoleHomeWorkProject\\RoleHomeWorkProject\\RoleHomeWorkProject.csproj",
         "projectName": "RoleHomeWorkProject",
-        "projectPath": "C:\\Users\\ahmed\\source\\repos\\RoleHomeWorkProject\\RoleHomeWorkProject\\RoleHomeWorkProject.csproj",
+        "projectPath": "C:\\Users\\ahmed\\Desktop\\AhmedEminBoluk-ApsiyonBootcampHomeworks\\RoleHomeWorkProject\\RoleHomeWorkProject\\RoleHomeWorkProject.csproj",
         "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmed\\source\\repos\\RoleHomeWorkProject\\RoleHomeWorkProject\\obj\\",
+        "outputPath": "C:\\Users\\ahmed\\Desktop\\AhmedEminBoluk-ApsiyonBootcampHomeworks\\RoleHomeWorkProject\\RoleHomeWorkProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",

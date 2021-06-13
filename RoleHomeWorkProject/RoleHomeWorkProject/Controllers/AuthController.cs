@@ -49,7 +49,7 @@ namespace RoleHomeWorkProject.Controllers
             if (!result.Succeeded) return RedirectToAction("Login");
             return RedirectToAction("AddRole");
         }
-        
+        [RefreshLogin]
         [Authorize]
         public async Task<IActionResult> AddRole()
         {
@@ -70,6 +70,16 @@ namespace RoleHomeWorkProject.Controllers
             if (!await _userManager.IsInRoleAsync(user, Roles.OF))
                 await _userManager.AddToRoleAsync(user, Roles.OF);
 
+            return View();
+        }
+
+        public async Task<IActionResult> CreateRole()
+        {
+            await _roleManager.CreateAsync(new IdentityRole { Name = Roles.HR });
+            await _roleManager.CreateAsync(new IdentityRole { Name = Roles.IT });
+            await _roleManager.CreateAsync(new IdentityRole { Name = Roles.Marketing });
+            await _roleManager.CreateAsync(new IdentityRole { Name = Roles.OF });
+            await _roleManager.CreateAsync(new IdentityRole { Name = Roles.SEC });
             return View();
         }
 

@@ -8,7 +8,7 @@ namespace RoleHomeWorkProject.Controllers
 {
     public class RoleEnter : Controller
     {
-        [RefreshLogin]
+        
         [AuthorizeByRole(Roles.HR, Roles.IT, Roles.Marketing, Roles.OF)]
         public IActionResult FourRole()
         {
