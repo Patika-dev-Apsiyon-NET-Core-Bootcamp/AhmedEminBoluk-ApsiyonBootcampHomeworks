@@ -12,5 +12,6 @@ Bootcamp süresince verilen ödevler.
 
 ## Ödev-3 - RoleHomeWorkProject
 * Kayıt olup, giriş yapabilirsiniz. (Custom Login/Register sayfaları ile)
+* İlk sefer için Auth/CreateRole action a giderseniz gerekli Role'ler veritabanına yansır.
 * Giriş yaptıktan sonra otomatik olarak Role'leriniz ekleniyor.
 * Sayfada yetkiniz varsa olumlu, yetkiniz yoksa olumsuz bir mesajla karşılaşıyorsunuz.
