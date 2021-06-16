@@ -1,0 +1,7 @@
+C:\Kodluyoruz\5Haziran\CleanArchitecture.Domain\CleanArchitecture.Infrastructure.IoC\bin\Debug\net5.0\CleanArchitecture.Application.dll
+C:\Kodluyoruz\5Haziran\CleanArchitecture.Domain\CleanArchitecture.Infrastructure.IoC\bin\Debug\net5.0\CleanArchitecture.Domain.dll
+C:\Kodluyoruz\5Haziran\CleanArchitecture.Domain\CleanArchitecture.Infrastructure.IoC\bin\Debug\net5.0\CleanArchitecture.Infrastructure.Data.dll
+C:\Kodluyoruz\5Haziran\CleanArchitecture.Domain\CleanArchitecture.Infrastructure.IoC\obj\Debug\net5.0\CleanArchitecture.Infrastructure.IoC.csprojAssemblyReference.cache
+C:\Kodluyoruz\5Haziran\CleanArchitecture.Domain\CleanArchitecture.Infrastructure.IoC\obj\Debug\net5.0\CleanArchitecture.Infrastructure.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kodluyoruz\5Haziran\CleanArchitecture.Domain\CleanArchitecture.Infrastructure.IoC\obj\Debug\net5.0\CleanArchitecture.Infrastructure.IoC.AssemblyInfoInputs.cache
+C:\Kodluyoruz\5Haziran\CleanArchitecture.Domain\CleanArchitecture.Infrastructure.IoC\obj\Debug\net5.0\CleanArchitecture.Infrastructure.IoC.AssemblyInfo.cs
