@@ -10,7 +10,10 @@ Bootcamp süresince verilen ödevler.
 * Seçtiğiniz kategoriler ve kullanıcı için bir blog yazısı oluşturabilirsiniz.
 * Seçtiğiniz bir blog yazısına belirlediğiniz kullanıcı ile yorum yapabilirsiniz.
 
-## Ödev-3 - RoleHomeWorkProject
+## Ödev-3 - CleanArchitecture.Domain
+* Derste yapılan Blog projesine kategorilerle beraber etiket ekleme işlemi.
+
+## Ödev-4 - RoleHomeWorkProject
 * Kayıt olup, giriş yapabilirsiniz. (Custom Login/Register sayfaları ile)
 * İlk sefer için Auth/CreateRole action a giderseniz gerekli Role'ler veritabanına yansır.
 * Giriş yaptıktan sonra otomatik olarak Role'leriniz ekleniyor.
